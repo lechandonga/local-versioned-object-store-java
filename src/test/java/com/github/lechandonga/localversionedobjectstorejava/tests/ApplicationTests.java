@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
  * @author Vincent
  * @version 1.0
  */
-@SpringBootTest
+@SpringBootTest(properties = "store.root=target/test-store-context")
 public class ApplicationTests {
     @Test
     public void contentLoad() {
